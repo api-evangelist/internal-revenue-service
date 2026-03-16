@@ -1,15 +1,41 @@
-name: internal-revenue-service
-description: Needs a description.
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json-icons/apis-json.png
-url: https://example.com/apis/apis.yml
-type: Contract
-created: '2024-12-25'
-modified: '2024-12-25'
-specificationVersion: '0.18'
+aid: internal-revenue-service
+name: Internal Revenue Service
+description: >-
+  The Internal Revenue Service (IRS) is the United States federal tax collection
+  agency and a bureau of the Department of the Treasury. The IRS provides data
+  access and developer resources for tax-related information and e-filing
+  integration.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Tag
-apis: []
-common: []
+  - Federal Government
+  - Tax
+  - Finance
+  - IRS
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/internal-revenue-service/refs/heads/main/apis.yml
+created: '2024-12-25'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: internal-revenue-service:irs-e-file
+    name: IRS e-File
+    description: >-
+      The IRS provides APIs and resources for electronic tax filing, allowing
+      tax software providers and developers to integrate with IRS e-file systems
+      for submitting tax returns electronically.
+    humanURL: https://www.irs.gov/e-file-providers
+    tags:
+      - Tax Filing
+      - Federal Government
+    properties:
+      - type: Documentation
+        url: https://www.irs.gov/e-file-providers
+common:
+  - type: Website
+    url: https://www.irs.gov/
+  - type: Support
+    url: https://www.irs.gov/help
 maintainers:
-  - FN: API Evangelist
-    email: info@apievangelist.com
+  - FN: Kin Lane
+    email: kin@apievangelist.com
