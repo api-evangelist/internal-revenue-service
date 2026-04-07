@@ -19,7 +19,7 @@ modified: '2026-03-16'
 specificationVersion: '0.19'
 apis:
   - aid: internal-revenue-service:irs-e-file
-    name: IRS e-File
+    name: IRS E-File
     description: >-
       The IRS provides APIs and resources for electronic tax filing, allowing
       tax software providers and developers to integrate with IRS e-file systems
