@@ -9,9 +9,9 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Federal Government
-  - Tax
   - Finance
   - IRS
+  - Tax
 url: >-
   https://raw.githubusercontent.com/api-evangelist/internal-revenue-service/refs/heads/main/apis.yml
 created: '2024-12-25'
@@ -26,8 +26,8 @@ apis:
       for submitting tax returns electronically.
     humanURL: https://www.irs.gov/e-file-providers
     tags:
-      - Tax Filing
       - Federal Government
+      - Tax Filing
     properties:
       - type: Documentation
         url: https://www.irs.gov/e-file-providers
