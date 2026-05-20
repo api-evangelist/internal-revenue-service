@@ -56,6 +56,10 @@ apis:
       - type: Documentation
         url: https://www.irs.gov/tax-professionals/e-services
 common:
+  - type: GitHubOrganization
+    url: https://github.com/IRS-Public
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/irs
   - type: Website
     url: https://www.irs.gov/
   - type: Developer
