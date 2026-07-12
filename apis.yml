@@ -56,6 +56,8 @@ apis:
       - type: Documentation
         url: https://www.irs.gov/tax-professionals/e-services
 common:
+  - type: DomainSecurity
+    url: security/internal-revenue-service-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/IRS-Public
   - type: LinkedIn
