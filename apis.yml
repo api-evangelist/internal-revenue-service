@@ -35,7 +35,7 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/internal-revenue-service.png
 tags:
-  - Federal-Government
+  - Federal Government
   - Finance
   - IRS
   - Tax
@@ -46,6 +46,7 @@ tags_raw:
   - IRS
   - Tax
   - Tax Filing
+  - Federal-Government
 url: >-
   https://raw.githubusercontent.com/api-evangelist/internal-revenue-service/refs/heads/main/apis.yml
 created: '2024-12-25'
@@ -61,11 +62,12 @@ apis:
       integrate with MeF to submit returns and receive acknowledgements.
     humanURL: https://www.irs.gov/e-file-providers/modernized-e-file-mef-internet-filing
     tags:
-      - Federal-Government
+      - Federal Government
       - Tax Filing
     tags_raw:
       - Federal Government
       - Tax Filing
+      - Federal-Government
     properties:
       - type: Documentation
         url: https://www.irs.gov/e-file-providers/modernized-e-file-mef-internet-filing
@@ -82,11 +84,12 @@ apis:
       messaging for electronic interactions with the IRS.
     humanURL: https://www.irs.gov/tax-professionals/e-services
     tags:
-      - Federal-Government
+      - Federal Government
       - Tax Professionals
     tags_raw:
       - Federal Government
       - Tax Professionals
+      - Federal-Government
     properties:
       - type: Documentation
         url: https://www.irs.gov/tax-professionals/e-services
